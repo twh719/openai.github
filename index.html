@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>L'Oréal Virtual Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>L'Oréal Assistant</h1>
+      <button id="darkModeToggle">🌓</button>
+    </header>
+
+    <div id="chatWindow"></div>
+
+    <!-- ✅ Suggested questions / quick access -->
+    <div class="suggestions">
+      <button class="suggestion">What is retinol?</button>
+      <button class="suggestion">Best serum for dry skin?</button>
+      <button class="suggestion">Compare serum and moisturizer</button>
+      <button class="suggestion">Haircare for frizzy hair</button>
+      <button class="suggestion">Which sunscreen has SPF?</button>
+    </div>
+
+    <div class="input-area">
+      <input type="text" id="userInput" placeholder="Ask about skincare, haircare, makeup...">
+      <button id="sendBtn">➤</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
